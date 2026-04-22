@@ -45,11 +45,11 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            padding: 20px;
+            padding: 40px 20px; /* Menambah padding atas/bawah agar lebih lega saat di-scroll */
             line-height: 1.5;
             -webkit-font-smoothing: antialiased;
             position: relative;
-            overflow: hidden; /* Mencegah scroll karena animasi background */
+            overflow-x: hidden; /* MENGUBAH INI: Hanya mencegah scroll horizontal, vertikal tetap bisa */
             color: #ffffff; /* Teks default menjadi putih */
         }
 
